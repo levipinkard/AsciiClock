@@ -119,11 +119,11 @@ public class AsciiNumbers {
                                   "  X  ",
                                   "     "};
     }
-    //Asscifies numbers, returns results as String array
+    //Asciifies numbers, returns results as String array
     public String[] getString() {
         return asciify(startString);
     }
-    //Sets number string to be asscified (startString) to string inputted
+    //Sets number string to be ascii-fied (startString) to string inputted
     public void setNumber(String numberIn) {
         startString = numberIn;
 
