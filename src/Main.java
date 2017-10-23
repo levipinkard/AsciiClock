@@ -24,8 +24,8 @@ public class Main {
                 System.out.println();
             }
             //Prints all seven rows of total time array
-            for (int x = 0; x < 7; x++) {
-                System.out.println(tempTime[x]);
+            for (String currentRow : tempTime) {
+                System.out.println(currentRow);
             }
             //Stops constant printout, only prints once per second (need to watch for drifting)
             Thread.sleep(1000);
